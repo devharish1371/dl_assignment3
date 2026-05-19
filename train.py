@@ -223,7 +223,7 @@ def load_checkpoint(path: str, model: Transformer, optimizer: Optional[torch.opt
     if not os.path.exists(optimal_path):
         try:
             import gdown
-            gdown.download(id="1EX-HRxBWzmdIZQRq8Kfp6J3UIcpAxqtn", output=optimal_path, quiet=False)
+            gdown.download(id="1zy3tl-f_W0xY_RtS8I9yE8I-znFGJXUg", output=optimal_path, quiet=False)
         except Exception:
             pass
 
