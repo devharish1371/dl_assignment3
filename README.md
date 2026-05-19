@@ -1,8 +1,8 @@
 # DA6401 - Assignment 3: Implementing a Transformer for Machine Translation
 
-**Name:** Jaydeep Makwana
+**Name:** Devharish N
 
-**Roll Number:** DA25M013
+**Roll Number:** MA25M010
 
 **Course:** DA6401 - Introduction to Deep Learning
 
@@ -10,27 +10,15 @@
 
 ## W&B Report
 
-[View Full Experiment Report on Weights & Biases](https://api.wandb.ai/links/jaydeep316-i/szdhqk77)
+[View Full Experiment Report on Weights & Biases](https://wandb.ai/ma25m010-indian-institute-of-technology-madras/da6401_assignment_3/reports/Assignment-3--VmlldzoxNjkzNDMxOA?accessToken=8wgojsk4x8w0rxbs3devfapbyb6w3y9yxx6tjyo775czmr76hr6m69vnntebtuhn)
 
-LINK : https://api.wandb.ai/links/jaydeep316-i/szdhqk77
 
-The report covers all five required experiments:
-- Noam Scheduler vs Fixed Learning Rate
-- Ablation on the Scaling Factor (1/sqrt(dk))
-- Attention Rollout and Head Specialization
-- Sinusoidal Positional Encoding vs Learned Embeddings
-- Label Smoothing (eps=0.1 vs eps=0.0)
 
----
 
-## Overview
 
-This assignment implements the landmark architecture from the paper **"Attention Is All You Need"** (Vaswani et al., 2017) from scratch using PyTorch. The goal is to build a Neural Machine Translation system that translates text from German to English using the Multi30k dataset.
+[Github](https://github.com/devharish1371/dl_assignment3)
 
-- **Base Paper:** [Attention Is All You Need](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
-- **Dataset:** [bentrevett/multi30k](https://huggingface.co/datasets/bentrevett/multi30k) — 29,000 training pairs, 1,014 validation pairs, 1,000 test pairs
 
----
 
 ## Project Structure
 
